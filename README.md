@@ -15,11 +15,11 @@
 1. 打開 Chrome 並前往 `chrome://extensions/`
 2. 在右上角開啟「開發者模式」
 3. 點擊「載入未封裝項目」
-4. 選擇 `gvdb_searcher` 資料夾
+4. 選擇 `Charon` 資料夾
 
 ### 方法二：從 GitHub 下載
 
-1. Clone 此 repo 或下載 ZIP 檔案
+1. 下載整個reop的 ZIP 檔案(Charon.zip)，然後解壓縮
 2. 按照上述「方法一」的步驟進行安裝
 
 ## 使用方法
