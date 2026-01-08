@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "GVDB 快速查詢",
+  "version": "1.0",
+  "description": "在任何網頁上快速查詢 GVDB 資料庫",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://md.gvdb.org/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://md.gvdb.org/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
