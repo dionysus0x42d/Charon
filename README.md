@@ -1,11 +1,12 @@
-# GVDB 快速查詢 (GVDB Quick Search)
+# Charon (卡戎)
 
 一個 Chrome 擴充功能，讓你在任何網頁上快速查詢 GVDB 資料庫。
+卡戎是希臘神話中冥河的渡船人。
 
 ## 功能
 
 - **快速搜尋**: 選擇任何文字後右鍵點擊，選擇「在 GVDB 查詢」
-- **自動導航**: 搜尋結果頁面會自動點擊第一個演員連結
+- **自動導航**: 新分頁會自動開啟 GVDB 搜尋結果
 - **搜尋詞儲存**: 搜尋詞會自動儲存到瀏覽器的本地儲存，方便參考
 
 ## 安裝
@@ -78,3 +79,7 @@
 - [GVDB 資料庫](https://md.gvdb.org)
 - [Chrome 擴充功能文檔](https://developer.chrome.com/docs/extensions/)
 - [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/)
+
+## 聲明
+此專案透過 Claude Code 生成，本人並不具備太多前端知識，
+若有 bug 歡迎 fork 或 pull request，造成損失均與開發者無涉。
